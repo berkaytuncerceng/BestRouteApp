@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balçova Haritası - En Uygun Rota</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="map"></div>
+    <div id="info">
+        <h3>Seçilen Noktalar:</h3>
+        <p id="start-point">Başlangıç: Henüz Seçilmedi</p>
+        <p id="end-point">Bitiş: Henüz Seçilmedi</p>
+        <button id="calculate-button" style="display: none;">Mesafeyi Hesapla</button>
+        <p id="distance" style="display: none;"></p>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+    <script src="map.js"></script>
+</body>
+</html>
